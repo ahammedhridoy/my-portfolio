@@ -3,12 +3,13 @@ import "./Footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
+import FTRIMG from "../../Assets/ashikHridoy.png";
 
 const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        Ashik
+        <img src={FTRIMG} alt="footer logo" />
       </a>
 
       <ul className="permalinks">

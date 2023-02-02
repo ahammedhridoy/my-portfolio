@@ -8,11 +8,13 @@ footer {
 footer a {
   color: var(--color-bg);
 }
-.footer_logo {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  display: inline-block;
+.footer_logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .permalinks {
