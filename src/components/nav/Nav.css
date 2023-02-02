@@ -5,7 +5,7 @@ nav {
   padding: 0.7rem 1.7rem;
   z-index: 2;
   position: fixed;
-  left: 50%;
+  left: 28%;
   transform: translateX(50%);
   bottom: 2rem;
   display: flex;
@@ -28,6 +28,20 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  nav{
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav{
+    left: -17%;
+  }
 }

@@ -22,7 +22,6 @@ function App() {
       <Testimonial></Testimonial>
       <Contact></Contact>
       <Footer></Footer>
-      <NotFound></NotFound>
     </div>
   );
 }
