@@ -29,6 +29,7 @@
 }
 .experience_details {
   display: flex;
+  gap: 1rem;
 }
 .experience_details_icon {
   margin-top: 6px;
