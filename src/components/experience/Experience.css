@@ -25,11 +25,10 @@
 .experience_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 .experience_details {
   display: flex;
-  gap: 1rem;
 }
 .experience_details_icon {
   margin-top: 6px;
@@ -59,5 +58,10 @@
   .experience_container > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+  .experience_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
   }
 }
